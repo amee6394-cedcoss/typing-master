@@ -71,7 +71,7 @@ function reset(){
     timeDisplay.innerHTML="00:00:00";
     document.getElementById("demo1").innerHTML="Correct text typed Accuracy";
     document.getElementById("demo2").innerHTML="Errors";
-    document.getElementById("demo2").innerHTML="Words per minute";
+    document.getElementById("demo3").innerHTML="Words per minute";
     count=0;
     error=0;
 
