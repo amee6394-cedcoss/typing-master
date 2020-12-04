@@ -76,7 +76,7 @@ function reset(){
     error=0;
 
 }
-currentWord.addEventListener("keypress",start);
-currentWord.addEventListener("keyup",spell);
+currentWord.addEventListener("keydown",start);
+currentWord.addEventListener("keydown",spell);
 resetbtn.addEventListener("click",reset);
 
