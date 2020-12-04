@@ -7,9 +7,9 @@ header{
     height: 130px;
 }
 
-h1{
+h2{
     text-align: center;
-    font-size: 54px;
+    font-size: 50px;
     color: white;
 }
 
@@ -24,7 +24,7 @@ article{
 }
 
 .intro{
-    font-size: 23px;
+    font-size: 16px;
 }
 
 .test-area{
@@ -69,8 +69,10 @@ border:2px solid greenyellow;
     header{
         height: 88px;;
     }
-    h1{
-        font-size: 52px;
+    h2{
+        text-align: center;
+        font-size: 35px;
+        color: white;
     }
     .test-wrapper {
         width: 71%;
@@ -132,6 +134,11 @@ border:2px solid greenyellow;
     .test-area{
         height: 435px;
     }
+    h2{
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
 }
 @media  (min-width:541px) and (max-width:759px)
 {
@@ -159,6 +166,11 @@ border:2px solid greenyellow;
         background-color: white;
         color: black;
         height: 339px;
+    }
+    h2{
+        text-align: center;
+        font-size: 35px;
+        color: white;
     }
 
 }
@@ -188,6 +200,11 @@ border:2px solid greenyellow;
         height: 95px;
         border: 10px solid yellow;
     }
+    h2{
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
 
 }
 
@@ -195,7 +212,7 @@ border:2px solid greenyellow;
 @media  (min-width:760px) and (max-width:1024px)
 {
     .intro{
-        font-size: 20px;
+        font-size: 15px;
     }
     #reset {
         width: 15%;
@@ -218,6 +235,11 @@ border:2px solid greenyellow;
         background-color: white;
         color: black;
         height: 326px;
+    }
+    h2{
+        text-align: center;
+        font-size: 35px;
+        color: white;
     }
 }
 @media  (min-width:1024px) and (max-width:1080px)
